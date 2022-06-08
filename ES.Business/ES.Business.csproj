@@ -7,10 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EventStore.Client" Version="21.2.2" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\ES.Core\ES.Core.csproj" />
+    <ProjectReference Include="..\ES.DataAccess\ES.DataAccess.csproj" />
     <ProjectReference Include="..\ES.Entity\ES.Entity.csproj" />
   </ItemGroup>
 
